@@ -1,0 +1,47 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    border-style: solid;
+    
+}
+
+.menu{
+    background-color: aqua;
+    padding: 2rem;
+    margin-right: 1rem;
+    width: 40%;
+}
+.conteudo{
+    padding: 2rem;
+    width: 20%;
+}
+
+.item-menu{
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-bottom: solid;
+    list-style: upper-roman;
+}
+
+.item-menu:hover{
+    background-color: rgb(47, 72, 21);
+}
+
+ul{
+    list-style-type: lower-greek;
+}
+section{
+    margin-top: 5rem;
+}
+
+#sec1{
+    background-color: crimson;
+}
