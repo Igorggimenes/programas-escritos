@@ -1,0 +1,22 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    display: block;
+    margin-top: 1rem;
+}
+input{
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+    border-color: darkgray;
+    padding: 0.4rem;
+}
+
+.formulario{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#nascimento:hover{
+    background-color: aqua;
+}
