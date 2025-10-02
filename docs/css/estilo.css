@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(27, 90, 87);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -10,11 +10,10 @@ body{
 
 div{
     border-style: solid;
-    
 }
 
 .menu{
-    background-color: aqua;
+    background-color: rgb(9, 56, 56);
     padding: 2rem;
     margin-right: 1rem;
     width: 40%;
@@ -39,9 +38,10 @@ ul{
     list-style-type: lower-greek;
 }
 section{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
-#sec1{
-    background-color: crimson;
+footer{
+    margin-left: 4rem;
+    font-style:oblique;
 }
