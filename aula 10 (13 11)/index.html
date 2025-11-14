@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>AULA DEIZZZ</title>
+</head>
+<body>
+    <form action="">
+
+    </form>
+    <p>Selecione um radio button e clique em enviar</p>
+    <p>Genero:</p>
+    <input type="radio" name="gender" value="Masculino">Masculino
+    <input type="radio" name="gender" value="Feminino">Feminino
+    <input type="radio" name="gender" value="Outro">Outro
+    <p id="resul"></p>
+    <button type="button" onclick="displayRadioValue()">
+        Enviar
+    </button>
+    <div id="result"></div>
+    <div>
+        <h2>Qual elemento da lista foi selecionado?</h2>
+        <p>selecione uma das opções de plano:
+        <select id="select1">
+            <option value="free" selected>Free</option>
+            <option value="basic">Basic</option>
+            <option value="Premium">Premium</option>
+        </select>
+        </p>
+        <p>o valor selecionado é: 
+            <span class="output"></span>
+        </p>
+        <button onclick="getOption()">Veja a seleção </button>
+    </div>
+
+    <div>
+        <h2>Elementos check</h2>
+        <p>Quais sua prioridades?</p>
+        <p>
+            trabalho <input type="checkbox" name="work" id="w" value="work">
+        </p>
+        <p>
+            Estudos <input type="checkbox" name="study" id="s" value="study">
+        </p>
+        <p>
+            Saúde <input type="checkbox" name="health" id="h" value="health">
+        </p>
+        <p>
+            <button onclick="getCheckedBox()">Enviar</button>
+        </p>
+        <p>Minhas prioridades são <span id="pri"></span></p>
+    </div>
+
+
+
+    <p></p>
+    <p class="output">aaaaaaaaa</p>
+
+    <script src="js/funssoems.js"></script>
+</body>
+</html>
